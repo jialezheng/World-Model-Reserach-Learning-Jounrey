@@ -9,7 +9,7 @@ learns to land a rocket inside its own learned "dream" of the world.
 
 The project advances through five architectural eras:
 
-> **1D Physics → 2D World → LSTM → RSSM → Transformer**
+> **1D Physics → 2D World → RSSM → Transformer**
 
 The work is organized into **three demos** that each tell one chapter of the story:
 
