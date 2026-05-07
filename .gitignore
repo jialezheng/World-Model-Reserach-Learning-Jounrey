@@ -1,0 +1,52 @@
+# ── Virtual environments ────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python bytecode / caches ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ── Build / packaging artifacts ─────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Test / coverage ─────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ── Jupyter ─────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE / editor ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── OS ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Stray training artifacts that should NOT be at project root ─────────
+# Trained checkpoints belong in models/weights/ (and ARE tracked in git).
+# These two phases historically saved a copy at the project root — ignore
+# only those root-level copies.
+/action_brain_v5.pth
+/latent_brain_v8.pth
+/world_model_training.csv
+/gravity_states.csv
+old_experiments/
