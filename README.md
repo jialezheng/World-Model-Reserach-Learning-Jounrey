@@ -9,7 +9,7 @@ learns to land a rocket inside its own learned "dream" of the world.
 
 The project advances through five architectural eras:
 
-> **1D Physics → 2D World → LSTM → RSSM → Transformer**
+> **1D Physics → 2D World → RSSM → Transformer**
 
 The work is organized into **three demos** that each tell one chapter of the story:
 
@@ -406,5 +406,5 @@ straight to the demo scripts if you only want to regenerate the charts.
 5. **Memory matters** — RSSM (uncertainty + LSTM) and Transformer (attention) both crush plain LSTM on the World Model task (Demo 3A).
 6. **Better dreams make better Pilots** — Actor–Critic agents trained inside a Transformer World Model land within ~9 m of the target vs ~42 m for the RSSM Pilot (Demo 3B).
 
-> **15 phases:** 1D → 2D → LSTM → RSSM → Transformer
+> **15 phases:** 1D → 2D → RSSM → Transformer
 > **3 demos:** Feed-Forward · World Models · Actor–Critic Pilots
